@@ -1,9 +1,9 @@
 import React from 'react';
-import Nav from '../Nav';
+import Nav from '../Navigation';
 
 function Header() {
   return (
-    <header>
+    <header className="flex-row px-1">
       <div>
         <h1>
           <a href="/">Amy Gardiner</a>
