@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
   return (
     <section class="about">
-      <h1 id="about">I'm an About Me section</h1>
+      <h1 id="about">About Me</h1>
       <p>
         My name is Amy Gardiner and I am currently taking the Washington
         University Coding Boot Camp to become a web developer. I've created this

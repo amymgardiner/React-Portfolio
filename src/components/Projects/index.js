@@ -7,7 +7,7 @@ import CodingQuiz from '../../assets/images/nguyen-dang-hoang-nhu-qDgTQOYk6B8-un
 import WorkSchedule from '../../assets/images/eden-constantino-bTukYI4DjOs-unsplash.jpg';
 import NoteTaker from '../../assets/images/david-travis-5bYxXawHOQg-unsplash.jpg';
 
-function Portfolio() {
+function Projects() {
   return (
     <section class="portfolio">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4">
@@ -151,4 +151,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Projects;

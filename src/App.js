@@ -1,28 +1,39 @@
-import React from 'react';
-import { HashRouter, Route } from 'react-router-dom';
-import './index.css';
-
-import Homepage from './components/Homepage';
+import React, { useState } from 'react';
 import Header from './components/Header';
-import About from './components/About';
-import Contact from './components/Contact';
-import Projects from './components/Project';
 import Footer from './components/Footer';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+// import Homepage from './components/Homepage';
 
 function App() {
+  const [currentTab, setCurrentTab] = useState('about');
+
+  const renderTab = () => {
+    switch (currentTab) {
+      case 'about':
+        return <About />;
+      case 'projects':
+        return <Projects />;
+      case 'contact':
+        return <Contact />;
+      default:
+        return null;
+    }
+  };
+
   return (
-    <HashRouter basename="/">
+    <div>
       <div>
-        <Header />
-        <main>
-          <Route exact path="/" component={Homepage} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/projects" component={Projects} />
-        </main>
-        <Footer />
+        <Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
       </div>
-    </HashRouter>
+      <div>
+        <main>{renderTab()}</main>
+      </div>
+      <div>
+        <Footer></Footer>
+      </div>
+    </div>
   );
 }
 
