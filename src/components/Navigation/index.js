@@ -1,17 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Nav() {
   return (
     <nav className="navbar">
       <ul className="flex-row">
         <li className="mx-2">
-          <a href="/about">About Me</a>
+          <Link to="/about">About Me</Link>
         </li>
         <li className="mx-2">
-          <a href="/projects">Projects</a>
+          <Link to="/projects">Projects</Link>
         </li>
         <li className="mx-2">
-          <a href="/contact">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>
