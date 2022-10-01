@@ -22,7 +22,7 @@ function Contact() {
     if (e.target.name === 'email') {
       const isValid = validateEmail(e.target.value);
       if (!isValid) {
-        setErrorMessage('Your email is invalid.');
+        setErrorMessage('your email is invalid.');
       } else {
         setErrorMessage('');
       }
@@ -44,7 +44,7 @@ function Contact() {
       <h1 data-testid="h1tag">Contact Me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="name">Name:</label>
+          <label htmlFor="name">Full Name:</label>
           <input
             type="text"
             name="name"
@@ -53,7 +53,7 @@ function Contact() {
           />
         </div>
         <div>
-          <label htmlFor="email">Email address:</label>
+          <label htmlFor="email">Email Address:</label>
           <input
             type="email"
             name="email"
