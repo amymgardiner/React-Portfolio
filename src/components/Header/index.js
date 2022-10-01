@@ -1,20 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Nav from '../Navigation';
 
-function Header(props) {
-  const { currentTab, setCurrentTab } = props;
-
+function Header() {
   return (
     <header className="flex-row px-1">
-      <div>
+      <div className="logo">
         <h1>
-          <a href="/">Amy Gardiner</a>
+          <Link to="/">Amy Gardiner</Link>
         </h1>
-        <Nav>
-          currentTab={currentTab}
-          setCurrentTab={setCurrentTab}
-        </Nav>
       </div>
+      <Nav></Nav>
     </header>
   );
 }

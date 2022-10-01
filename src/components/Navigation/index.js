@@ -1,18 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Nav(props) {
-  const { currentTab, setCurrentTab } = props;
+function Nav() {
   return (
     <nav className="navbar">
       <ul className="flex-row">
-        <li className={currentTab === 'about' ? 'mx-2 navActive' : 'mx-2'}>
-          <span onClick={() => setCurrentTab('about')}>About Me</span>
+        <li className="mx-2">
+          <Link to="/about">About Me</Link>
         </li>
-        <li className={currentTab === 'projects' ? 'mx-2 navActive' : 'mx-2'}>
-          <span onClick={() => setCurrentTab('projects')}>Projects</span>
+        <li className="mx-2">
+          <Link to="/projects">Portfolio</Link>
         </li>
-        <li className={currentTab === 'contact' ? 'mx-2 navActive' : 'mx-2'}>
-          <span onClick={() => setCurrentTab('contact')}>Contact</span>
+        <li className="mx-2">
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>

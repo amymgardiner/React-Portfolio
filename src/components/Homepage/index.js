@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 function Homepage() {
   return (
@@ -7,9 +6,6 @@ function Homepage() {
       <div className="title">
         <h2>Hi, I'm Amy.</h2>
         <p>Welcome to my boot camp student portfolio!</p>
-        <Link to="projects">
-          <button>View My Projects</button>
-        </Link>
       </div>
     </section>
   );

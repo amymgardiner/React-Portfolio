@@ -1,7 +1,7 @@
 import React from 'react';
 
 import MovieJuice from '../../assets/images/jakob-owens-CiUR8zISX60-unsplash.jpg';
-import YouLou from '../../assets/images/brittney-butler-uZnoD1xuL9A-unsplash.jpg';
+import YouLou from '../../assets/images/intricate-explorer-Gt6D-s4M-04-unsplash.jpg';
 import PlaceHolder from '../../assets/images/huma-kabakci-oRk4Ep65tRc-unsplash.jpg';
 import CodingQuiz from '../../assets/images/nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash.jpg';
 import WorkSchedule from '../../assets/images/eden-constantino-bTukYI4DjOs-unsplash.jpg';
