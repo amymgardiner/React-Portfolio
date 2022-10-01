@@ -4,7 +4,12 @@ import Nav from '../Nav';
 function Header() {
   return (
     <header>
-      <Nav></Nav>
+      <div>
+        <h1>
+          <a href="/">Amy Gardiner</a>
+        </h1>
+        <Nav></Nav>
+      </div>
     </header>
   );
 }
