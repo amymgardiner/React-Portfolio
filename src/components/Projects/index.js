@@ -14,6 +14,7 @@ function Projects() {
         <div class="col">
           <div class="card">
             <img src={MovieJuice} alt="movieJuice" class="card-img-top" />
+            movieJuice
             <div class="card-body">
               <a
                 href="https://github.com/amymgardiner/movieJuice"
@@ -36,6 +37,7 @@ function Projects() {
         <div class="col">
           <div class="card">
             <img src={YouLou} alt="You in the Lou" class="card-img-top" />
+            You in the Lou
             <div class="card-body">
               <a
                 href="https://github.com/olliedirker/You-in-the-Lou"
@@ -58,6 +60,7 @@ function Projects() {
         <div class="col">
           <div class="card">
             <img src={PlaceHolder} alt="Final Project" class="card-img-top" />
+            Final Project
             <div class="card-body">
               <a
                 href="https://github.com/amymgardiner"
@@ -80,6 +83,7 @@ function Projects() {
         <div class="col">
           <div class="card">
             <img src={CodingQuiz} alt="Coding Quiz Game" class="card-img-top" />
+            Coding Quiz Game
             <div class="card-body">
               <a
                 href="https://github.com/amymgardiner/Coding-Quiz-Game"
@@ -106,6 +110,7 @@ function Projects() {
               alt="Work Day Scheduler"
               class="card-img-top"
             />
+            Day Scheduler
             <div class="card-body">
               <a
                 href="https://github.com/amymgardiner/Work-Day-Scheduler"
@@ -128,6 +133,7 @@ function Projects() {
         <div class="col">
           <div class="card">
             <img src={NoteTaker} alt="Note Taker" class="card-img-top" />
+            Note Taker
             <div class="card-body">
               <a
                 href="https://github.com/amymgardiner/Note-Taker"
