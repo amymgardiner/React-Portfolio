@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter, Route } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 
 import Header from './components/Header';
 import Homepage from './components/Homepage';
@@ -15,10 +15,12 @@ class App extends Component {
         <div className="app">
           <Header />
           <main>
-            <Route exact path="/" component={Homepage} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/contact" component={Contact} />
-            <Route exact path="/portfolio" component={Projects} />
+            <Routes>
+              <Route path="/" element={Homepage} />
+              <Route path="about" element={About} />
+              <Route path="contact" element={Contact} />
+              <Route path="portfolio" celement={Projects} />
+            </Routes>
           </main>
           <Footer />
         </div>
