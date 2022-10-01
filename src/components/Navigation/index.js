@@ -8,7 +8,7 @@ function Nav() {
           <a href="/about">About Me</a>
         </li>
         <li className="mx-2">
-          <a href="/portfolio">Portfolio</a>
+          <a href="/projects">Projects</a>
         </li>
         <li className="mx-2">
           <a href="/contact">Contact</a>
