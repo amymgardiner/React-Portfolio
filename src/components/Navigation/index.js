@@ -5,9 +5,9 @@ function Nav() {
   return (
     <nav className="navbar">
       <ul className="flex-row">
-        <li className="mx-2">
-          <Link to="/about">About Me</Link>
-        </li>
+        <Link to="/about">
+          <li className="mx-2">About Me</li>
+        </Link>
         <li className="mx-2">
           <Link to="/projects">Portfolio</Link>
         </li>
