@@ -22,11 +22,7 @@ main {
 html,
 body {
   min-height: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -46,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Alkalami', serif;
   font-weight: 300;
   margin: 5px 0;
   line-height: 1.25;
@@ -101,6 +97,10 @@ header {
   padding: 10px;
   border-bottom: 4px solid #b75d69;
   background: #eacdc2;
+}
+
+header h1 {
+  font-family: 'Alkalami', serif;
 }
 
 header a {
