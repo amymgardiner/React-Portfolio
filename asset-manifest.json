@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.52e2ddeb.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.4ae85e63.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.4ae85e63.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.006ea476.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.006ea476.js.map",
+    "static/js/2.6af9e1cf.chunk.js": "/React-Portfolio/static/js/2.6af9e1cf.chunk.js",
+    "static/js/2.6af9e1cf.chunk.js.map": "/React-Portfolio/static/js/2.6af9e1cf.chunk.js.map",
+    "static/js/3.3006691d.chunk.js": "/React-Portfolio/static/js/3.3006691d.chunk.js",
+    "static/js/3.3006691d.chunk.js.map": "/React-Portfolio/static/js/3.3006691d.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/main.52e2ddeb.chunk.css.map": "/React-Portfolio/static/css/main.52e2ddeb.chunk.css.map",
+    "static/js/2.6af9e1cf.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.6af9e1cf.chunk.js.LICENSE.txt",
+    "static/media/120844674_10158808628028328_8170920614770695289_n.02163cfa.jpg": "/React-Portfolio/static/media/120844674_10158808628028328_8170920614770695289_n.02163cfa.jpg",
+    "static/media/Amy-Gardiner-Resume.pdf": "/React-Portfolio/static/media/Amy-Gardiner-Resume.1c2c3b96.pdf",
+    "static/media/Amy-Gardiner-Resume1024_1.ed239c9e.png": "/React-Portfolio/static/media/Amy-Gardiner-Resume1024_1.ed239c9e.png",
+    "static/media/david-travis-5bYxXawHOQg-unsplash.bed85d6d.jpg": "/React-Portfolio/static/media/david-travis-5bYxXawHOQg-unsplash.bed85d6d.jpg",
+    "static/media/eden-constantino-bTukYI4DjOs-unsplash.4567ffd6.jpg": "/React-Portfolio/static/media/eden-constantino-bTukYI4DjOs-unsplash.4567ffd6.jpg",
+    "static/media/huma-kabakci-oRk4Ep65tRc-unsplash.fccd5d7d.jpg": "/React-Portfolio/static/media/huma-kabakci-oRk4Ep65tRc-unsplash.fccd5d7d.jpg",
+    "static/media/intricate-explorer-Gt6D-s4M-04-unsplash.38a46757.jpg": "/React-Portfolio/static/media/intricate-explorer-Gt6D-s4M-04-unsplash.38a46757.jpg",
+    "static/media/jakob-owens-CiUR8zISX60-unsplash.d3fec207.jpg": "/React-Portfolio/static/media/jakob-owens-CiUR8zISX60-unsplash.d3fec207.jpg",
+    "static/media/nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash.260f7a20.jpg": "/React-Portfolio/static/media/nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash.260f7a20.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.006ea476.js",
+    "static/js/2.6af9e1cf.chunk.js",
+    "static/css/main.52e2ddeb.chunk.css",
+    "static/js/main.4ae85e63.chunk.js"
+  ]
+}
