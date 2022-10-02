@@ -84,6 +84,11 @@ a {
   padding: 2px 4px;
   margin-left: -2px;
   margin-right: -2px;
+  color: #b75d69;
+}
+
+a:hover {
+  color: #b75d69;
 }
 
 header {
