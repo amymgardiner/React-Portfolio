@@ -5,9 +5,6 @@ function AmyResume() {
   return (
     <section class="about">
       <h1 id="about">Resume</h1>
-      <a href={require('../../assets/Amy-Gardiner-Resume.pdf')} download>
-        <h4>Download my Resume</h4>
-      </a>
       <img src={Resume} alt="Amy Gardiner Resume" />
       <p>
         <br></br>
@@ -17,6 +14,7 @@ function AmyResume() {
             <h5>Skills:</h5>
           </li>
           <li>React</li>
+          <li>Graphql</li>
           <li>MongoDB</li>
           <li>Handlebars.js</li>
           <li>MySQL</li>

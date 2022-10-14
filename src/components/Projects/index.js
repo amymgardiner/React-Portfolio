@@ -2,7 +2,7 @@ import React from 'react';
 
 import MovieJuice from '../../assets/images/jakob-owens-CiUR8zISX60-unsplash.jpg';
 import YouLou from '../../assets/images/intricate-explorer-Gt6D-s4M-04-unsplash.jpg';
-import PlaceHolder from '../../assets/images/huma-kabakci-oRk4Ep65tRc-unsplash.jpg';
+import GitHubLite from '../../assets/images/roman-synkevych-wX2L8L-fGeA-unsplash.jpg';
 import CodingQuiz from '../../assets/images/nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash.jpg';
 import WorkSchedule from '../../assets/images/eden-constantino-bTukYI4DjOs-unsplash.jpg';
 import NoteTaker from '../../assets/images/david-travis-5bYxXawHOQg-unsplash.jpg';
@@ -59,18 +59,18 @@ function Projects() {
 
         <div class="col">
           <div class="card">
-            <img src={PlaceHolder} alt="Final Project" class="card-img-top" />
-            Final Project
+            <img src={GitHubLite} alt="GitHubLite" class="card-img-top" />
+            GitHubLite
             <div class="card-body">
               <a
-                href="https://github.com/amymgardiner"
+                href="https://github.com/cjpritch/github-lite"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button>GitHub</button>
               </a>
               <a
-                href="https://github.com/amymgardiner"
+                href="https://mighty-temple-98827.herokuapp.com/profile"
                 target="_blank"
                 rel="noreferrer"
               >
