@@ -199,6 +199,15 @@ textarea {
   margin-right: auto;
 }
 
+#notifyToast {
+  color: #fae1dd;
+  border-radius: 6px;
+  width: 150px;
+  text-align: center;
+  margin-left: 75px;
+  background-color: #b75d69;
+}
+
 .row {
   margin: 0 auto;
 }
