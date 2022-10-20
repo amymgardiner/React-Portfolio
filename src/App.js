@@ -11,16 +11,16 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div className="app">
         <Header />
         <main>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/resume" element={<AmyResume />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/about" element={<About />} />
+            <Route exact path="/projects" element={<Projects />} />
+            <Route exact path="/resume" element={<AmyResume />} />
+            <Route exact path="/contact" element={<Contact />} />
           </Routes>
         </main>
         <Footer />
