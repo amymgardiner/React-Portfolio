@@ -63,14 +63,14 @@ const Projects = () => {
             GitHub Lite
             <div className="card-body">
               <a
-                href="https://github.com/amymgardiner/Deep-Thoughts"
+                href="https://github.com/amymgardiner/GitHub-Lite"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button>GitHub</button>
               </a>
               <a
-                href="https://mighty-temple-98827.herokuapp.com/"
+                href="https://radiant-basin-16315.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
