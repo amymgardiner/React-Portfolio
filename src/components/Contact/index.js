@@ -64,7 +64,7 @@ const Contact = () => {
 
   return (
     <section className="contact">
-      <h1 data-testid="h1tag">Contact Me</h1>
+      <h1>Contact Me</h1>
       <form id="contact-form" onSubmit={handleSubmit(onSubmit)}>
         <div>
           <label htmlFor="name">Full Name:</label>
