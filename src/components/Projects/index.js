@@ -60,7 +60,7 @@ const Projects = () => {
         <div class="col">
           <div class="card">
             <img src={GitHubLite} alt="GitHubLite" class="card-img-top" />
-            GitHubLite
+            GitHub Lite
             <div class="card-body">
               <a
                 href="https://github.com/amymgardiner/Deep-Thoughts"
