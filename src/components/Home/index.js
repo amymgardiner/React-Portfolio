@@ -8,7 +8,7 @@ const Home = () => {
         <h2>Hi, I'm Amy.</h2>
         <p>Welcome to my web development portfolio!</p>
       </div>
-      <div className="selfie">
+      <div className="selfie portrait">
         <img src={Selfie} alt="self portrait" />
       </div>
     </section>

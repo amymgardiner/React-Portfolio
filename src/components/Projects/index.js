@@ -9,13 +9,13 @@ import NoteTaker from '../../assets/images/david-travis-5bYxXawHOQg-unsplash.jpg
 
 const Projects = () => {
   return (
-    <section class="portfolio">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4">
-        <div class="col">
-          <div class="card">
-            <img src={MovieJuice} alt="movieJuice" class="card-img-top" />
+    <section className="portfolio">
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4">
+        <div className="col">
+          <div className="card">
+            <img src={MovieJuice} alt="movieJuice" className="card-img-top" />
             movieJuice
-            <div class="card-body">
+            <div className="card-body">
               <a
                 href="https://github.com/amymgardiner/movieJuice"
                 target="_blank"
@@ -34,11 +34,11 @@ const Projects = () => {
           </div>
         </div>
 
-        <div class="col">
-          <div class="card">
-            <img src={YouLou} alt="You in the Lou" class="card-img-top" />
+        <div className="col">
+          <div className="card">
+            <img src={YouLou} alt="You in the Lou" className="card-img-top" />
             You in the Lou
-            <div class="card-body">
+            <div className="card-body">
               <a
                 href="https://github.com/olliedirker/You-in-the-Lou"
                 target="_blank"
@@ -57,11 +57,11 @@ const Projects = () => {
           </div>
         </div>
 
-        <div class="col">
-          <div class="card">
-            <img src={GitHubLite} alt="GitHubLite" class="card-img-top" />
+        <div className="col">
+          <div className="card">
+            <img src={GitHubLite} alt="GitHubLite" className="card-img-top" />
             GitHub Lite
-            <div class="card-body">
+            <div className="card-body">
               <a
                 href="https://github.com/amymgardiner/Deep-Thoughts"
                 target="_blank"
@@ -80,11 +80,15 @@ const Projects = () => {
           </div>
         </div>
 
-        <div class="col">
-          <div class="card">
-            <img src={CodingQuiz} alt="Coding Quiz Game" class="card-img-top" />
+        <div className="col">
+          <div className="card">
+            <img
+              src={CodingQuiz}
+              alt="Coding Quiz Game"
+              className="card-img-top"
+            />
             Coding Quiz Game
-            <div class="card-body">
+            <div className="card-body">
               <a
                 href="https://github.com/amymgardiner/Coding-Quiz-Game"
                 target="_blank"
@@ -103,15 +107,15 @@ const Projects = () => {
           </div>
         </div>
 
-        <div class="col">
-          <div class="card">
+        <div className="col">
+          <div className="card">
             <img
               src={WorkSchedule}
               alt="Work Day Scheduler"
-              class="card-img-top"
+              className="card-img-top"
             />
             Day Scheduler
-            <div class="card-body">
+            <div className="card-body">
               <a
                 href="https://github.com/amymgardiner/Work-Day-Scheduler"
                 target="_blank"
@@ -130,11 +134,11 @@ const Projects = () => {
           </div>
         </div>
 
-        <div class="col">
-          <div class="card">
-            <img src={NoteTaker} alt="Note Taker" class="card-img-top" />
+        <div className="col">
+          <div className="card">
+            <img src={NoteTaker} alt="Note Taker" className="card-img-top" />
             Note Taker
-            <div class="card-body">
+            <div className="card-body">
               <a
                 href="https://github.com/amymgardiner/Note-Taker"
                 target="_blank"
