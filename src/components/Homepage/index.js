@@ -1,7 +1,7 @@
 import React from 'react';
 import Selfie from '../../assets/images/120844674_10158808628028328_8170920614770695289_n.jpg';
 
-function Homepage() {
+const Homepage = () => {
   return (
     <section className="home my-5">
       <div className="title">
@@ -13,6 +13,6 @@ function Homepage() {
       </div>
     </section>
   );
-}
+};
 
 export default Homepage;

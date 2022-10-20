@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Nav from '../Navigation';
 
-function Header() {
+const Header = () => {
   return (
     <header className="flex-row px-1">
       <div className="logo">
@@ -13,6 +13,6 @@ function Header() {
       <Nav></Nav>
     </header>
   );
-}
+};
 
 export default Header;

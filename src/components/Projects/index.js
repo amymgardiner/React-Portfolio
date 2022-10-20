@@ -7,7 +7,7 @@ import CodingQuiz from '../../assets/images/nguyen-dang-hoang-nhu-qDgTQOYk6B8-un
 import WorkSchedule from '../../assets/images/eden-constantino-bTukYI4DjOs-unsplash.jpg';
 import NoteTaker from '../../assets/images/david-travis-5bYxXawHOQg-unsplash.jpg';
 
-function Projects() {
+const Projects = () => {
   return (
     <section class="portfolio">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4">
@@ -63,14 +63,14 @@ function Projects() {
             GitHubLite
             <div class="card-body">
               <a
-                href="https://github.com/cjpritch/github-lite"
+                href="https://github.com/amymgardiner/Deep-Thoughts"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button>GitHub</button>
               </a>
               <a
-                href="https://mighty-temple-98827.herokuapp.com/profile"
+                href="https://mighty-temple-98827.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -155,6 +155,6 @@ function Projects() {
       </div>
     </section>
   );
-}
+};
 
 export default Projects;
