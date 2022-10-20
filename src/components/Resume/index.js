@@ -5,7 +5,7 @@ const AmyResume = () => {
   return (
     <section className="about">
       <h1 id="about">Resume</h1>
-      <img src={Resume} alt="Amy Gardiner Resume" />
+      <img src={Resume} className="resume" alt="Amy Gardiner Resume" />
     </section>
   );
 };
