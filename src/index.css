@@ -310,7 +310,6 @@ textarea {
 .about {
   text-align: center;
   margin: 10px 20px;
-  padding: 5rem;
 }
 
 footer {
@@ -347,6 +346,6 @@ footer ul li {
   .about {
     text-align: center;
     margin: 0;
-    padding: 5rem;
+    padding: 1rem;
   }
 }
