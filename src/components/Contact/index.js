@@ -65,8 +65,8 @@ const Contact = () => {
   return (
     <section className="contact">
       <h1>Contact Me</h1>
-      <div>
-        <form id="contact-form" onSubmit={handleSubmit(onSubmit)}>
+      <div className="contact-div">
+        <form className="contact-form" onSubmit={handleSubmit(onSubmit)}>
           <div>
             <label htmlFor="name">Full Name:</label>
             <input

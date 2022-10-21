@@ -281,6 +281,7 @@ textarea {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 5rem;
 }
 
 .home .title {
@@ -293,6 +294,7 @@ textarea {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 5rem;
 }
 
 .home .portrait img {
@@ -319,12 +321,12 @@ textarea {
   margin-bottom: 5rem;
 }
 
-#contact-form {
+.contact-form {
   display: flex;
   flex-direction: column;
 }
 
-#contact-form div {
+.contact-form div {
   margin-bottom: 1rem;
 }
 
@@ -385,7 +387,7 @@ footer ul li {
     align-items: center;
   }
 
-  #contact-form {
+  .contact-form {
     margin-left: 8rem;
   }
 
@@ -401,5 +403,15 @@ footer ul li {
 @media only screen and (max-width: 450px) {
   .about {
     text-align: center;
+  }
+
+  .contact-form {
+    margin-left: 7rem;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .contact-form {
+    margin-left: 6rem;
   }
 }
