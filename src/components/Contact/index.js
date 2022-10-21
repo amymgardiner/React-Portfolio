@@ -65,90 +65,92 @@ const Contact = () => {
   return (
     <section className="contact">
       <h1>Contact Me</h1>
-      <form id="contact-form" onSubmit={handleSubmit(onSubmit)}>
-        <div>
-          <label htmlFor="name">Full Name:</label>
-          <input
-            type="text"
-            name="name"
-            {...register('name', {
-              required: {
-                value: true,
-                message: 'Please enter your name',
-              },
-              maxLength: {
-                value: 80,
-                message: 'Please use 30 characters or less',
-              },
-            })}
-            placeholder="Name"
-          ></input>
-          {errors.name && (
-            <span className="errorMessage">{errors.name.message}</span>
-          )}
-        </div>
-        <div>
-          <label htmlFor="email">Email Address:</label>
-          <input
-            type="email"
-            name="email"
-            {...register('email', {
-              required: true,
-              pattern:
-                /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
-            })}
-            placeholder="Email address"
-          ></input>
-          {errors.email && (
-            <span className="errorMessage">
-              Please enter a valid email address
-            </span>
-          )}
-        </div>
-        <div>
-          <label htmlFor="name">Subject Line:</label>
-          <input
-            type="text"
-            name="subject"
-            {...register('subject', {
-              required: {
-                value: true,
-                message: 'Please enter a subject',
-              },
-              maxLength: {
-                value: 75,
-                message: 'Subject cannot exceed 75 characters',
-              },
-            })}
-            placeholder="Subject"
-          ></input>
-          {errors.subject && (
-            <span className="errorMessage">{errors.subject.message}</span>
-          )}
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea
-            rows="5"
-            name="message"
-            {...register('message', {
-              required: true,
-            })}
-            placeholder="Message"
-          ></textarea>
-          {errors.message && (
-            <span className="errorMessage">Please enter a message</span>
-          )}
-        </div>
-        <button
-          data-testid="button"
-          className="submit-btn"
-          disabled={disabled}
-          type="submit"
-        >
-          Submit
-        </button>
-      </form>
+      <div>
+        <form id="contact-form" onSubmit={handleSubmit(onSubmit)}>
+          <div>
+            <label htmlFor="name">Full Name:</label>
+            <input
+              type="text"
+              name="name"
+              {...register('name', {
+                required: {
+                  value: true,
+                  message: 'Please enter your name',
+                },
+                maxLength: {
+                  value: 80,
+                  message: 'Please use 30 characters or less',
+                },
+              })}
+              placeholder="Name"
+            ></input>
+            {errors.name && (
+              <span className="errorMessage">{errors.name.message}</span>
+            )}
+          </div>
+          <div>
+            <label htmlFor="email">Email Address:</label>
+            <input
+              type="email"
+              name="email"
+              {...register('email', {
+                required: true,
+                pattern:
+                  /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
+              })}
+              placeholder="Email address"
+            ></input>
+            {errors.email && (
+              <span className="errorMessage">
+                Please enter a valid email address
+              </span>
+            )}
+          </div>
+          <div>
+            <label htmlFor="name">Subject Line:</label>
+            <input
+              type="text"
+              name="subject"
+              {...register('subject', {
+                required: {
+                  value: true,
+                  message: 'Please enter a subject',
+                },
+                maxLength: {
+                  value: 75,
+                  message: 'Subject cannot exceed 75 characters',
+                },
+              })}
+              placeholder="Subject"
+            ></input>
+            {errors.subject && (
+              <span className="errorMessage">{errors.subject.message}</span>
+            )}
+          </div>
+          <div>
+            <label htmlFor="message">Message:</label>
+            <textarea
+              rows="5"
+              name="message"
+              {...register('message', {
+                required: true,
+              })}
+              placeholder="Message"
+            ></textarea>
+            {errors.message && (
+              <span className="errorMessage">Please enter a message</span>
+            )}
+          </div>
+          <button
+            data-testid="button"
+            className="submit-btn"
+            disabled={disabled}
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
       <ToastContainer />
     </section>
   );

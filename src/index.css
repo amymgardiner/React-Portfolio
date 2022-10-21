@@ -256,13 +256,6 @@ textarea {
   padding: 5px;
 }
 
-.container {
-  width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #notifyToast {
   color: #fae1dd;
   border-radius: 6px;
@@ -310,6 +303,7 @@ textarea {
 .about {
   text-align: center;
   margin: 10px 20px;
+  margin-bottom: 5rem;
 }
 
 .resume {
@@ -322,11 +316,16 @@ textarea {
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5rem;
 }
 
 #contact-form {
   display: flex;
   flex-direction: column;
+}
+
+#contact-form div {
+  margin-bottom: 1rem;
 }
 
 footer {
@@ -356,6 +355,14 @@ footer ul li {
     width: 70%;
     height: auto;
   }
+
+  .portfolio {
+    width: 60%;
+  }
+
+  .card {
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (max-width: 1025px) {
@@ -378,14 +385,21 @@ footer ul li {
     align-items: center;
   }
 
+  #contact-form {
+    margin-left: 8rem;
+  }
+
   textarea {
     width: auto;
+  }
+
+  .portfolio {
+    margin-bottom: 5rem;
   }
 }
 
 @media only screen and (max-width: 450px) {
   .about {
     text-align: center;
-    margin: 0;
   }
 }
