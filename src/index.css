@@ -151,7 +151,7 @@ a {
 }
 
 a:hover {
-  color: #b75d69;
+  text-decoration: none;
   transform: scale(1.1);
 }
 
@@ -168,13 +168,26 @@ header {
   background: #eacdc2;
 }
 
+header a {
+  color: #372549;
+  transition: all 0.2s ease-in-out;
+}
+
+header a:hover {
+  text-decoration: none;
+  color: #783f8e;
+  transform: scale(1.1);
+}
+
 header h1 {
   font-family: 'Alkalami', serif;
   margin-top: 1rem;
+  color: #372549;
+  transition: all 0.2s ease-in-out;
 }
 
-header a {
-  color: #372549;
+header h1:hover {
+  transform: scale(1.1);
 }
 
 nav a {
@@ -185,11 +198,6 @@ nav a:hover {
   text-decoration: none;
   color: #b75d69;
   transform: scale(1.1);
-}
-
-.logo a:hover {
-  text-decoration: none;
-  color: #783f8e;
 }
 
 nav li {
