@@ -7,7 +7,7 @@ const Footer = () => {
       <footer>
         <ul>
           <a href="https://github.com/amymgardiner" target="blank">
-            <li>
+            <li className="grow">
               <FaGithub />
             </li>
           </a>

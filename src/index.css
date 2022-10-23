@@ -147,10 +147,12 @@ a {
   margin-left: -2px;
   margin-right: -2px;
   color: #b75d69;
+  transition: all 0.2s ease-in-out;
 }
 
 a:hover {
   color: #b75d69;
+  transform: scale(1.1);
 }
 
 header {
@@ -168,10 +170,30 @@ header {
 
 header h1 {
   font-family: 'Alkalami', serif;
+  margin-top: 1rem;
 }
 
 header a {
   color: #372549;
+}
+
+nav a {
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #b75d69;
+  transform: scale(1.1);
+}
+
+.logo a:hover {
+  text-decoration: none;
+  color: #783f8e;
+}
+
+nav li {
+  cursor: pointer;
 }
 
 button {
@@ -189,6 +211,7 @@ button {
 
 button:hover {
   opacity: 0.8;
+  border: 2px #b75d69 solid;
 }
 
 button[disabled] {
@@ -197,7 +220,7 @@ button[disabled] {
 }
 
 .portfolio {
-  margin: 10px auto;
+  margin: 1rem auto;
   justify-content: center;
   display: flex;
 }
@@ -206,6 +229,13 @@ button[disabled] {
   align-items: center;
   background-color: #fae1dd;
   margin: 10px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
 }
 
 img {
@@ -231,22 +261,6 @@ input:focus {
 
 li {
   list-style: none;
-}
-
-nav a:hover {
-  text-decoration: none;
-  color: #b75d69;
-  font-style: italic;
-}
-
-.logo a:hover {
-  text-decoration: none;
-  color: #783f8e;
-  font-style: italic;
-}
-
-nav li {
-  cursor: pointer;
 }
 
 textarea {
@@ -352,6 +366,10 @@ footer ul li {
   color: #372549;
 }
 
+footer ul li:hover {
+  color: #783f8e;
+}
+
 @media only screen and (max-width: 1445px) {
   .resume {
     width: 70%;
@@ -401,6 +419,9 @@ footer ul li {
 }
 
 @media only screen and (max-width: 450px) {
+  header {
+    align-items: center;
+  }
   .about {
     text-align: center;
   }

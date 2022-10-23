@@ -11,6 +11,7 @@ const Projects = () => {
   return (
     <section className="portfolio">
       <div>
+        <h1 className="projects">My Projects</h1>
         <div className="row">
           <div className="col">
             <div className="card">
