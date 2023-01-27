@@ -13,6 +13,30 @@ const Projects = () => {
       <div>
         <h1 className="projects">My Projects</h1>
         <div className="row">
+
+        <div className="col">
+            <div className="card">
+              <img src={YouLou} alt="You in the Lou" className="card-img-top" />
+              You in the Lou
+              <div className="card-body">
+                <a
+                  href="https://github.com/olliedirker/You-in-the-Lou"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button>GitHub</button>
+                </a>
+                <a
+                  href="https://you-in-the-lou.onrender.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button>Website</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
           <div className="col">
             <div className="card">
               <img src={MovieJuice} alt="movieJuice" className="card-img-top" />
@@ -36,30 +60,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="col">
-            <div className="card">
-              <img src={YouLou} alt="You in the Lou" className="card-img-top" />
-              You in the Lou
-              <div className="card-body">
-                <a
-                  href="https://github.com/olliedirker/You-in-the-Lou"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button>GitHub</button>
-                </a>
-                <a
-                  href="https://gp-2.herokuapp.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button>Website</button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col">
+          {/* <div className="col">
             <div className="card">
               <img src={GitHubLite} alt="GitHubLite" className="card-img-top" />
               GitHub Lite
@@ -80,7 +81,7 @@ const Projects = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="col">
             <div className="card">
@@ -149,7 +150,7 @@ const Projects = () => {
                   <button>GitHub</button>
                 </a>
                 <a
-                  href="https://sleepy-caverns-23548.herokuapp.com/"
+                  href="https://note-taker-fzox.onrender.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
