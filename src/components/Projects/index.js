@@ -14,24 +14,17 @@ const Projects = () => {
         <h1 className="projects">My Projects</h1>
         <div className="row">
 
-        <div className="col">
+          <div className="col">
             <div className="card">
               <img src={YouLou} alt="You in the Lou" className="card-img-top" />
               You in the Lou
               <div className="card-body">
                 <a
-                  href="https://github.com/olliedirker/You-in-the-Lou"
+                  href="https://github.com/amymgardiner/You-in-the-Lou"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <button>GitHub</button>
-                </a>
-                <a
-                  href="https://you-in-the-lou.onrender.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button>Website</button>
                 </a>
               </div>
             </div>
@@ -49,18 +42,11 @@ const Projects = () => {
                 >
                   <button>GitHub</button>
                 </a>
-                <a
-                  href="https://amymgardiner.github.io/movieJuice/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button>Website</button>
-                </a>
               </div>
             </div>
           </div>
 
-          {/* <div className="col">
+          <div className="col">
             <div className="card">
               <img src={GitHubLite} alt="GitHubLite" className="card-img-top" />
               GitHub Lite
@@ -72,17 +58,11 @@ const Projects = () => {
                 >
                   <button>GitHub</button>
                 </a>
-                <a
-                  href="https://radiant-basin-16315.herokuapp.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button>Website</button>
-                </a>
               </div>
             </div>
-          </div> */}
-
+          </div>
+        </div>
+        <div className="row">
           <div className="col">
             <div className="card">
               <img
@@ -98,13 +78,6 @@ const Projects = () => {
                   rel="noreferrer"
                 >
                   <button>GitHub</button>
-                </a>
-                <a
-                  href="https://amymgardiner.github.io/Coding-Quiz-Game/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button>Website</button>
                 </a>
               </div>
             </div>
@@ -126,13 +99,6 @@ const Projects = () => {
                 >
                   <button>GitHub</button>
                 </a>
-                <a
-                  href="https://amymgardiner.github.io/Work-Day-Scheduler/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button>Website</button>
-                </a>
               </div>
             </div>
           </div>
@@ -148,13 +114,6 @@ const Projects = () => {
                   rel="noreferrer"
                 >
                   <button>GitHub</button>
-                </a>
-                <a
-                  href="https://note-taker-fzox.onrender.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button>Website</button>
                 </a>
               </div>
             </div>

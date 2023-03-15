@@ -6,7 +6,7 @@ const Home = () => {
     <section className="home my-5">
       <div className="title">
         <h2>Hi, I'm Amy.</h2>
-        <p>Welcome to my web development portfolio!</p>
+        <p>Welcome to my student web development portfolio!</p>
       </div>
       <div className="selfie portrait">
         <img src={Selfie} alt="self portrait" />

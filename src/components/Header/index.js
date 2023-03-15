@@ -4,7 +4,7 @@ import Nav from '../Navigation';
 
 const Header = () => {
   return (
-    <header className="flex-row px-1">
+    <header className="flex-row">
       <div className="logo">
         <h1>
           <Link to="/">Amy Gardiner</Link>
